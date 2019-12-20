@@ -2,7 +2,7 @@
 GUI based program for generating and demoing solutions for the Towers of Hanoi puzzle with varying numbers of discs.
 
 ## Demonstration
-
+![](images/demo.gif)
 ## Documentation
 [Java-Docs](https://dingram91.github.io/TowersOfHanoiSolutionCalculator/)
 ## Diagrams
@@ -10,7 +10,8 @@ GUI based program for generating and demoing solutions for the Towers of Hanoi p
 ![](images/TowersOfHanoiSolverClassDiagram.png)
 
 ## Getting Started
-
+1. Install java 8  
+2. Download and double click the executable jar from the release tab.  
 ## Built With
 Java, JavaFX, H2-Database
 
