@@ -7,7 +7,7 @@ GUI based program for generating and demoing solutions for the Towers of Hanoi p
 [Java-Docs](https://dingram91.github.io/TowersOfHanoiSolutionCalculator/)
 ## Diagrams
 ### Class Digram
-![](images/classDiagram.PNG)
+![](images/TowersOfHanoiSolverClassDiagram.png)
 
 ## Getting Started
 
