@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="860.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TowersOfHanoiSolver.Controller">
+  <children>
+    <Pane fx:id="uiPane" layoutX="622.0" layoutY="15.0" prefHeight="270.0" prefWidth="238.0">
+      <children>
+        <Label layoutX="60.0" layoutY="4.0" text="Number of Discs" />
+        <ChoiceBox fx:id="cbbNumberOfDiscs" layoutX="159.0" prefHeight="25.0" prefWidth="55.0" />
+        <Button layoutX="167.0" layoutY="91.0" mnemonicParsing="false" onAction="#step" text="Step" />
+        <Label layoutY="38.0" text="Step Required to complete: " />
+        <Label fx:id="lblStepsRequired" layoutX="159.0" layoutY="38.0" prefHeight="17.0" prefWidth="55.0" />
+        <Label layoutX="74.0" layoutY="62.0" text="Current Step: " />
+        <Label fx:id="lblCurrentStep" layoutX="159.0" layoutY="62.0" prefHeight="17.0" prefWidth="55.0" />
+        <Button layoutX="164.0" layoutY="126.0" mnemonicParsing="false" onAction="#reset" text="Reset" />
+        <Label fx:id="lblUserMessage" layoutY="163.0" prefHeight="70.0" prefWidth="232.0" />
+      </children>
+    </Pane>
+  </children>
+</Pane>
